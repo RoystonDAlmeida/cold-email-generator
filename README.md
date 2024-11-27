@@ -29,7 +29,6 @@ from langchain_groq import ChatGroq
 
 ## Installation
 1. Clone the repository using `git clone`
-<br>
 2. Execute the `main.py` file using `streamlit run main.py`. It will run on `Port: 8501`
 
 
