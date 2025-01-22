@@ -32,6 +32,15 @@ collection = self.chroma_client.get_or_create_collection(name="portfolio")
 from langchain_groq import ChatGroq
 ```
 
+## Environment Variables
+
+To run this application, you need to create a `.env` file in the root directory of your project. This file should contain the following environment variables:
+
+```bash
+GROQ_API_KEY =
+URL =
+```
+
 ## Installation
 1. Clone the repository using `git clone`
 2. Execute the `main.py` file using `streamlit run main.py`. It will run on `Port: 8501`
